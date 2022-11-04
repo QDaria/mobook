@@ -1,0 +1,20 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+format: jb-book
+root: index
+parts:
+  - caption: Team Effekt
+    numbered: True  # Only applies to chapters in Part 1.
+    chapters:
+    - file: intro
+      sections:
+      - file: overview
+      - file: ph 
+  - caption: Exploratory Data Analysis
+    numbered: True   # Only applies to chapters in Part 1.
+    chapters:
+    - file: EDA0
+    - file: prereq
+      sections:
+      - file: prenb
+    
